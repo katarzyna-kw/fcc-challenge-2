@@ -92,6 +92,18 @@ body {
   textarea {
     height: 70px;
   }
+
+  footer {
+      font-size: .7em;
+      text-transform: uppercase;
+      padding-bottom: 5px;
+      padding-top: 15px;
+      color: crimson;
+  }
+
+  footer span {
+      color: Salmon;
+  }
   
   
   @media (min-width: 768px) {
