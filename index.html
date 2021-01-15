@@ -1,0 +1,56 @@
+<html>
+<head>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Domine:wght@400;500;600&family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <title>what'd you listen to?</title>
+</head>
+ <body>
+  <header>
+    <h1 id="title">what'd <span>you</span> listen to?</h1>     
+  </header>
+  <div id="main">
+    <p id="description">Tell us what you thought about music in 2020.</p>
+    <form id="survey-form">
+      <div id="text-form">
+        <label id="name-label" for="name">Name</label><br>
+        <input id="name" type="text" required placeholder="Enter your name"><br>
+        <label id="email-label" for="email">Email</label><br>
+        <input id="email" type="email" required placeholder="Enter your email"><br>
+        <label id="number-label" for="email">Age (optional)</label><br>
+        <input id="number" type="number" min="3" max="125" placeholder="Age">
+      </div>
+      <div id="drop">
+        <label id="dropdown-label" for="dropdown-albums">Pick your favorite 2020 album:</label><br>
+        <select id="dropdown" name="albums2020">
+        <option value="Ariana">Positions, Ariana Grande</option>
+        <option value="Fiona">Fetch the Bolt Cutters, Fiona Apple</option>
+        <option value="ChloexHalle">Ungodly Hour, Chloe x Halle</option>
+        <option value="theWeeknd">After Hours, The Weeknd</option>
+        </select>
+      </div>
+      <div id="middle">
+        <div id="radio-check">
+          <label for="iconicSinger">Which iconic singer do you most wish had released a new album in 2020?<br><br>
+          <input id="iconicSinger1" type="radio" name="iconicSinger" value="Beyonce">Beyonce
+          <input id="iconicSinger2" type="radio" name="iconicSinger" value="Rihanna">Rihanna
+          <input id="iconicSinger3" type="radio" name="iconicSinger" value="Mariah">Mariah
+          </label>
+        </div>
+        <div id="check">
+          <label for="checkbox">Which of these recent Beyonce albums describe 2020 feelings?</label><br><br>
+          <label for="lemonade"><input id="lemonade" type="checkbox" name="bAlbums" value="lemonade">Lemonade</label><br>
+          <label for="homecomingTheLiveAlbum"><input id="homecomingTheLiveAlbum" type="checkbox" name="bAlbums" value="homecoming">Homecoming: The Live Album</label><br>
+          <label for="theLionKingTheGift"><input id="theLionKingTheGift" type="checkbox" name="bAlbums" value="lion king">The Lion King: The Gift</label>
+        </div>
+      </div>
+      <div id="textb">
+        <label for="additionalComments">Any additional comments?</label><br>
+<textarea id="additionalComments" name="additionalComments">Enter your comments here...</textarea>
+      </div>
+      <div id="submit-button">
+      <input id="submit" type="submit">
+      </div>
+   </form>
+</body>
+</html>
